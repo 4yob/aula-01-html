@@ -16,7 +16,7 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
-    color: #c8c8c8;
+    color: #e5e5e5c7;
     padding: 10px;
 }
 
@@ -51,4 +51,25 @@ aside {
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: #445d37;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #e5e5e5c7;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
 }
